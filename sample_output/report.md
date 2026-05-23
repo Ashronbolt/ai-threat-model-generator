@@ -2,7 +2,7 @@ STRIDE Threat Model Report
 Generated: 23 May 2025 
 Tool: AI Threat Model Generator 
 ---
-System Description
+System Description:
 A healthcare web application that allows patients to book appointments and view medical records. It uses a React frontend, a Node.js REST API, a PostgreSQL database, and stores documents in an AWS S3 bucket. Authentication is handled via JWT tokens. The app is hosted on AWS behind an Application Load Balancer.
 ---
 System Summary: A patient-facing healthcare web app with JWT auth, REST API, PostgreSQL database, and AWS S3 document storage.
