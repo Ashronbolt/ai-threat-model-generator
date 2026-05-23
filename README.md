@@ -80,7 +80,7 @@ Severity-sorted Markdown Report
 The prompt instructs Claude to return structured JSON only — no hallucinated prose — which is then parsed, sorted by severity, and rendered into a clean report.
 ---
 AI + Security Engineering Notes
-This tool demonstrates how LLMs can augment — not replace — security engineering judgement:
+This tool demonstrates how LLMs can augment not replace security engineering judgement:
 AI is good at: Rapidly generating threat hypotheses across STRIDE categories, ensuring no category is overlooked, and producing consistent structured output
 Human judgement still needed for: Validating threats against actual system architecture, prioritising by business context, and signing off on mitigations
 ISO 42001 relevance: This tool itself would require AI risk assessment under ISO 42001 before use in a regulated environment  the outputs should be reviewed by a qualified security professional
